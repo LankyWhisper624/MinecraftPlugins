@@ -15,7 +15,7 @@ import java.util.List;
 
 public class FlyingCreepersCmd extends JavaPlugin {
     public boolean onCommand(CommandSender sender, Command command, String commandLabel, String[] args) {
-        if (commandLabel.equalsIgnoreCase("creeper")) {
+        if (commandLabel.equalsIgnoreCase("flyingCreeper")) {
             if (sender instanceof Player) {
                 Player me = (Player)sender;
                 Location loc = player.getLocation();
